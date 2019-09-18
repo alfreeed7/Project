@@ -118,3 +118,41 @@ h1
     padding: 10px;
     border-radius: 5px;
 }
+
+.account_form
+{   width:60%;
+    margin-top:100px;
+    margin-left: 20%;
+    padding:10px;
+    text-align: center;
+}
+
+label
+{
+    display: block;
+    padding: 5px;
+}
+
+table
+{
+    width: 70%;
+    margin-top: 120px;
+    margin-left: 15%;
+}
+
+svg
+{
+    margin-top:130px;
+    margin-left: 15%;
+}
+
+h3
+{
+    margin-top: 100px;
+    margin-left:15%;
+}
+
+.grade
+{
+    margin-left: 15%;
+}
