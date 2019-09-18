@@ -10,33 +10,30 @@ body a
 {
     color: aqua;
 }
-.day
-{
-    font-size: 18px;
-}
-
 
 h1
 {
     width: 40%;
     margin: auto;
     text-align: center;
+    font-family:cursive;
 }
 
 .header
 {
     width:100%;
-    height:1000px;
+    height:50px;
     top: 40px;
     position: absolute;
     text-align: center;
+    background-color: 
 }
 
 .person_info
 {
     position: fixed;
-    left: 1px;
-    top: 50px;
+    left: 10px;
+    top: 200px;
 }
 
 .nav a
@@ -57,8 +54,8 @@ h1
 {
     width: 50%;
     margin:auto;
-    margin-top: 100px;
-    padding: 10px;
+    margin-top: 90px;
+    padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
 }
@@ -68,7 +65,7 @@ h1
     width:50%;
     margin:auto;
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
 }
@@ -78,7 +75,46 @@ h1
     width:50%;
     margin:auto; 
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
+}
+
+.day
+{
+    background-color: #26293abf;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Chapbook';
+    src: url(font/Chapbook.woff);
+    font-weight: bold;
+}
+
+.reading-box
+{ 
+    background-color: #3b5065ab;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prep-box
+{
+    background-color: #456667b0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grading-box
+{
+    background-color: #76b0b2c7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lab-box
+{
+    background-color: #b1cdceb0;
+    padding: 10px;
+    border-radius: 5px;
 }
