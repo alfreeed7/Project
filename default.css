@@ -156,3 +156,9 @@ h3
 {
     margin-left: 15%;
 }
+
+.person_image
+{
+    height: 110px;
+    width: 80px;
+}
