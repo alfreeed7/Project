@@ -38,6 +38,9 @@ h1
 
 .nav a
 {
+    border: 1px solid #5C586B;
+    text-emphasis: bold;
+    text-decoration: none;
     margin-top: 20px;
     padding: 10px 10px 10px 10px;
     display: inline-block;
@@ -46,7 +49,8 @@ h1
 
 .nav a:hover
 {
- box-shadow: inset 0 0 0 4px white;
+ box-shadow: inset 0 0 0 5px #F5EBEE;
+    font-weight: bold;
     transition: 0.4s;
 }
 
@@ -60,6 +64,16 @@ h1
     border-radius: 10px;
 }
 
+.day-box.PREP a:hover
+{
+color:#750003;
+text-decoration:overline;
+font-style:oblique;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: 0.5s;
+}
+
 .day-box.CURRENT
 {
     width:50%;
@@ -70,6 +84,16 @@ h1
     border-radius: 10px;
 }
 
+.day-box.CURRENT a:hover
+{
+color:#750003;
+text-decoration:overline;
+font-style:oblique;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: 0.5s;
+}
+
 .day-box.COMPLETED
 {
     width:50%;
@@ -78,6 +102,16 @@ h1
     padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
+}
+
+.day-box.COMPLETED a:hover
+{
+color:#750003;
+text-decoration:overline;
+font-style:oblique;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: 0.5s;
 }
 
 .day
@@ -143,8 +177,12 @@ table
     margin-left: 15%;
 }
 
+classMates.html > body > table
+{}
+
 body > table:nth-child(7) > tbody
-{display: block;}
+{display: block;
+}
 
 body > table:nth-child(7) > tbody a
 {margin-right: 10px;}
