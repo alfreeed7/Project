@@ -127,6 +127,9 @@ h1
     text-align: center;
 }
 
+body > form > input[type=file]:nth-child(14)
+{margin-top: 20px;}
+
 label
 {
     display: block;
