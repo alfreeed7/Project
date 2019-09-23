@@ -161,7 +161,9 @@ font-style:oblique;
     text-align: center;
 }
 body > form > img
-{position: absolute;}
+{position: absolute;
+    display: block;
+margin: auto;}
 
 body > form > input[type=file]:nth-child(14)
 {margin-top: 140px;}
