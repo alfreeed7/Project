@@ -34,6 +34,8 @@ h1
     position: fixed;
     left: 10px;
     top: 200px;
+    width:80px;
+    height:110px;
 }
 
 .nav a
@@ -275,3 +277,4 @@ iframe
     margin-left: 10%;
     font-size: 18px;
 }
+
