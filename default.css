@@ -247,3 +247,37 @@ body > div.day-box.CURRENT > div.prep-box > a > div > div.grade
     height: 110px;
     width:80px;
 }
+
+iframe
+{
+    display: block;
+    width: 80%;
+    height: 800px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+prompt
+{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;   
+}
+
+.grade-table
+{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.assignment-title
+{
+    font-size: 48px;
+    width: 80%;
+    margin-left: 10%
+}
