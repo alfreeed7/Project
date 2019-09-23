@@ -175,14 +175,27 @@ table
     width: 70%;
     margin-top: 10px;
     margin-left: 15%;
+    border-collapse: separate;
+    border-spacing: 0px;
 }
 
-classMates.html > body > table
-{}
+th, td
+{
+    border: 1px solid;
+}
+
+table a:hover
+{
+color:#E0F5FF;
+text-decoration:overline;
+font-style:oblique;
+    font-weight: bold;
+    font-size: 18px; 
+    transition: 0.5s;
+}
 
 body > table:nth-child(7) > tbody
-{display: block;
-}
+{display: block;}
 
 body > table:nth-child(7) > tbody a
 {margin-right: 10px;}
