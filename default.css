@@ -156,3 +156,11 @@ h3
 {
     margin-left: 15%;
 }
+
+body > div.day-box.COMPLETED > div.prep-box > a > div > div.grade
+{margin-left: 0px;}
+
+body > div.day-box.COMPLETED > div.lab-box > a > div > div.grade
+{margin-left:0px;}
+
+body > div.day-box.CURRENT > div.prep-box > a > div > div.grade
