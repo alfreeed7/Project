@@ -22,21 +22,19 @@ h1
 .header
 {
     width:100%;
-    height:50px;
     top: 40px;
     text-align: center;
     margin-bottom: 20px;
-    background-color: 
 }
 
-.person_info
+body > div.header > div.person_info
 {
     position: fixed;
     left: 10px;
     top: 200px;
 }
 
-.person_image
+body > div.header > div.person_info > img
 {
     display:block;
     width:80px;
@@ -58,8 +56,7 @@ h1
 .nav a:hover
 {
     box-shadow: inset 0 0 0 5px #F5EBEE;
-    font-weight: bold #5C586B;
-    border: 2px dotted;
+    font-weight: bold;
     transition: 0.4s;
     
 }
@@ -68,7 +65,7 @@ h1
 {
     width: 50%;
     margin:auto;
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
@@ -217,6 +214,7 @@ table
 th, td
 {
     border: 1px solid;
+    padding: 4px;
 }
 
 
@@ -299,5 +297,13 @@ iframe
     width: 80%;
     margin-left: 10%;
     font-size: 18px;
+}
+
+
+body > table > tbody >img
+{
+    width: 80px;
+    height: 110px;
+    padding: 10px;
 }
 
