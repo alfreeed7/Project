@@ -351,3 +351,9 @@ body > form > div.assignment_title
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+.graded-assignment
+{
+    text-align: center;
+    font-size: 14px;
+}
