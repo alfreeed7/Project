@@ -336,3 +336,9 @@ body > form > div.question > div.rubric_comments > textarea
     margin-left: 10%;
     text-align: center;
 }
+
+body > form > div.assignment_title
+{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
