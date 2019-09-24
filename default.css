@@ -42,6 +42,9 @@ body > div.header > div.person_info > img
     padding: 10px;
 }
 
+body > div.header > div.person_info:before
+{content:url(passport.png);
+opacity:0.7;}
 
 .nav a
 {
