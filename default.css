@@ -193,10 +193,11 @@ font-style:oblique;
     width:35%;
     height: 650px;
     margin-top:75px;
-    margin-left: 35%;
+    margin-left: 32.5%;
     padding:10px;
     text-align: center;
-    background:
+    background:#b1cdceb0;
+    border-radius: 100px
 }
 .account_form:before
 {
@@ -204,8 +205,10 @@ font-style:oblique;
     opacity: 0.9;
     position: absolute;
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 220px;
 }
+
+
 body > form > img
 {position: absolute;
     left:46.8%}
