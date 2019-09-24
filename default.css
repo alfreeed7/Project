@@ -30,7 +30,7 @@ h1
 body > div.header > div.person_info
 {
     position: fixed;
-    left: 10px;
+    left: 40px;
     top: 200px;
 }
 
@@ -39,6 +39,7 @@ body > div.header > div.person_info > img
     display:block;
     width:80px;
     height:110px;
+    padding: 10px;
 }
 
 
@@ -204,9 +205,9 @@ label
 
 table
 {
-    width: 70%;
+    width: 60%;
     margin-top: 10px;
-    margin-left: 15%;
+    margin-left: 20%;
     border-collapse: separate;
     border-spacing: 0px;
 }
@@ -299,10 +300,15 @@ iframe
     font-size: 18px;
 }
 
+body > table > tbody
+{text-align: center;}
 
 body > table > tbody img
 {
     width: 80px;
     height: 110px;
     padding: 10px;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
 }
