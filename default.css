@@ -300,10 +300,9 @@ iframe
 }
 
 
-body > table > tbody >img
+body > table > tbody img
 {
     width: 80px;
     height: 110px;
     padding: 10px;
 }
-
