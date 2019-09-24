@@ -46,7 +46,7 @@ h1
 
 .nav a
 {
-    border: 1px solid #5C586B;
+    border: 2px solid #5C586B;
     text-emphasis: bold;
     text-decoration: none;
     margin-top: 20px;
@@ -57,9 +57,11 @@ h1
 
 .nav a:hover
 {
- box-shadow: inset 0 0 0 5px #F5EBEE;
-    font-weight: bold;
+    box-shadow: inset 0 0 0 5px #F5EBEE;
+    font-weight: bold #5C586B;
+    border: 2px dotted;
     transition: 0.4s;
+    
 }
 
 .day-box.PREP
@@ -70,6 +72,13 @@ h1
     padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
+}
+
+.day-box.PREP:hover
+{
+    width: 60%;
+transition: 1s;
+    padding: 0;
 }
 
 .day-box.PREP a:hover
@@ -92,6 +101,12 @@ font-style:oblique;
     border-radius: 10px;
 }
 
+.day-box.CURRENT:hover
+{
+width: 60%;
+transition: 1s;
+    padding: 0;
+}
 .day-box.CURRENT a:hover
 {
 color:#750003;
@@ -110,6 +125,13 @@ font-style:oblique;
     padding: 15px;
     background-color: #bbb5bd96;
     border-radius: 10px;
+}
+
+.day-box.COMPLETED:hover
+{
+    width: 60%;
+transition: 1s;
+    padding: 0;
 }
 
 .day-box.COMPLETED a:hover
