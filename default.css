@@ -191,16 +191,20 @@ font-style:oblique;
 .account_form
 {  
     width:35%;
-    height: 700px;
+    height: 650px;
     margin-top:75px;
     margin-left: 35%;
     padding:10px;
     text-align: center;
+    background:
 }
 .account_form:before
 {
     content: url(id-card.png);
     opacity: 0.9;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 200px;
 }
 body > form > img
 {position: absolute;
