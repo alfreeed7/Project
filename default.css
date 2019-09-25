@@ -322,11 +322,11 @@ body > div.day-box.CURRENT > div.prep-box > a > div > div.grade
 iframe
 {
     display: block;
-    width: 80%;
+    width: 78%;
     height: 800px;
     margin-top: 45px;
     margin-bottom: 30px;
-    margin-left: 10%;
+    margin-left: 11%;
     border-style: solid;
     border-color: white;
     border-width: 3px;
@@ -335,8 +335,8 @@ iframe
 .prompt
 {
     display:block;
-    width: 80%;
-    margin-left: 10%;
+    width: 76%;
+    margin-left: 12%;
     font-size: 16px;   
 }
 
@@ -369,15 +369,15 @@ body > form
 
 body > form > div.question > div.rubric_comments > span
 {
-    width: 80%;
-    margin-left: 10%;
+    width: 76%;
+    margin-left: 12%;
     text-align: center;  
 }
 
 body > form > div.question > div.rubric_comments > textarea
 {
-    width: 80%;
-    margin-left: 10%;
+    width: 76%;
+    margin-left: 12%;
     text-align: center;
 }
 
