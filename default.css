@@ -245,8 +245,15 @@ th, td
 {
     border: 1px solid;
     padding: 4px;
+    background-color: #352137ad;
 }
 
+body > table > tbody > tr:nth-child(1) th
+
+{height: 40px;
+font-size: 20px;
+    background-color: #38686ac2;
+}
 
 table a:hover
 {
@@ -276,7 +283,6 @@ svg
     margin-top:120px;
     margin-left: 15%;
 }
-
 
 body > h3:nth-child(5)
 {
