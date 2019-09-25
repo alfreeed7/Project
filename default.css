@@ -22,9 +22,14 @@ h1
 .header
 {
     width:100%;
-    top: 40px;
+    height: 120px;
     text-align: center;
     margin-bottom: 20px;
+    background-image: url(header.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    
 }
 
 body > div.header > div.person_info
@@ -52,10 +57,10 @@ opacity:0.7;}
     border: 2px solid #5C586B;
     text-emphasis: bold;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 10px 10px 10px;
     display: inline-block;
-    font-size: 20px; 
+    font-size: 21px; 
 }
 
 .nav a:hover
@@ -249,14 +254,15 @@ table
 th, td
 {
     border: 1px solid;
-    padding: 4px;
+    padding: 6px;
     background-color: #352137ad;
+    font-size: 18px;
 }
 
 body > table > tbody > tr:nth-child(1) th
 
 {height: 40px;
-font-size: 20px;
+font-size: 22px;
     background-color: #38686ac2;
 }
 
