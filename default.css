@@ -300,6 +300,9 @@ svg
     margin-left: 15%;
 }
 
+#desks rect
+{fill: #0d445aba;}
+
 body > h3:nth-child(5)
 {
     margin-top: 60px;
@@ -363,6 +366,12 @@ body > table > tbody img
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+body > table > tbody img:hover
+{
+  width: 88px;
+    height:121px;
 }
 
 body > form
