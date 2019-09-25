@@ -411,7 +411,7 @@ body > form > div.login > div.username
 }
 body > form > div.login > div.username > input[type=text]
 {
-    visbility: visible;   
+    visibility: visible;   
 }
 
 body > form > div.login > div:nth-child(3) > input[type=text]
