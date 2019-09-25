@@ -365,6 +365,12 @@ body > table > tbody img
     margin-right: auto;
 }
 
+body > table > tbody img:hover
+{height:121px;
+    width:88px;
+    transition:0.5s;
+}
+
 body > form
 {
     width: 80%;
@@ -419,3 +425,6 @@ body > form > div.login > div:nth-child(3) > input[type=text]
     position: relative;
     left: 30px;
 }
+
+#desks rect
+{fill:#151134c7;}
