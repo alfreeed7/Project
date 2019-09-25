@@ -19,6 +19,7 @@ h1
     margin: auto;
     text-align: center;
     font-family:cursive;
+    margin-top:15px;
 }
 
 .header
@@ -393,7 +394,7 @@ body > form > div.assignment_title
 
 .graded-assignment
 {
-    margin-left:25%
+    margin-left:25%;
     font-size: 16px;
 }
 
