@@ -4,11 +4,13 @@ body
     background-size: cover;
     background-attachment: fixed;
     color: whitesmoke;
+    font-family: 'EB Garamond', serif;
 }
 
 body a
 {
     color: aqua;
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 h1
@@ -170,9 +172,8 @@ font-style:oblique;
     padding: 5px;
     border-radius: 5px;
     vertical-align: middle;
-    font-family: 'Chapbook';
-    src: url(font/Chapbook.woff);
     font-weight: bold;
+    font-family: 'Cinzel', serif;
 }
 
 .reading-box
@@ -392,3 +393,6 @@ body > form > div.assignment_title
     text-align: center;
     font-size: 14px;
 }
+
+.assignment-label
+{display: inline;}
