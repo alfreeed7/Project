@@ -335,6 +335,7 @@ iframe
     border-style: solid;
     border-color: white;
     border-width: 3px;
+    background-color:white;
 }
 
 .prompt
