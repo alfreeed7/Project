@@ -300,9 +300,6 @@ svg
     margin-left: 15%;
 }
 
-#desks rect
-{fill: #0d445aba;}
-
 body > h3:nth-child(5)
 {
     margin-top: 60px;
@@ -368,12 +365,6 @@ body > table > tbody img
     margin-right: auto;
 }
 
-body > table > tbody img:hover
-{
-  width: 88px;
-    height:121px;
-}
-
 body > form
 {
     width: 80%;
@@ -413,3 +404,18 @@ padding-right: 10px;}
 
 .view_text
 {margin-left:12%;}
+
+body > form > div.login > div.username
+{
+    visibility: hidden;
+}
+body > form > div.login > div.username > input[type=text]
+{
+    visbility: visible;   
+}
+
+body > form > div.login > div:nth-child(3) > input[type=text]
+{
+    position: relative;
+    left: 30px;
+}
