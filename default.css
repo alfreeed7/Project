@@ -428,3 +428,8 @@ body > form > div.login > div:nth-child(3) > input[type=text]
 
 #desks rect
 {fill:#151134c7;}
+
+body > form > div.login > div.person_info > img
+{height:110px;
+    width:80px;
+}
